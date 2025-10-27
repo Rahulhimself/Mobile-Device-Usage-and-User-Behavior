@@ -42,11 +42,3 @@
 
 ### iOS Profile: iOS users in the sample show a more balanced Gender split and peak screen time in the 55–60 age group.
 <hr>
-
-## some Insights
-
-## 1. Validate and Standardize Screen Time Metric
-
-### Current Issue: The chart "Sum of Screen On Time (hours/day) by Age" displays a Sum of hours (e.g., 162 hours for age 30)1, which is misleading as it represents the total time across an entire group, not the typical individual usage. This makes comparisons between groups of different sizes unreliable.
-
-### Next Step Description:The underlying DAX (Data Analysis Expressions) measure for the "Screen On Time" visual must be changed from a $\text{SUM}$ calculation to an $\text{AVERAGE}$ calculation. This will ensure the visual displays the Average Screen Time per User (hours/day) for each age bracket. This change will provide a true representation of engagement and allow for fair, comparative analysis of how different demographics utilize their mobile devices.
